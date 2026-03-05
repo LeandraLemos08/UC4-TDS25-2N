@@ -19,3 +19,6 @@
   
 //   goku.atacar();       // Goku atacou com poder 9000!
 //   darthVader.atacar(); // Darth Vader atacou com poder 8500!
+
+// 1 ex1
+
