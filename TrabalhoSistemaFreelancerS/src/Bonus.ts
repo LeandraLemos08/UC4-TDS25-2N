@@ -10,4 +10,6 @@ export class BonusPremium extends additional {
   getDescricao(): string {
     return super.getDescription()+" + Bônus"
   }
-}
+ getType(): string {
+    return this.getType()
+ }}

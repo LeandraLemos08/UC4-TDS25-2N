@@ -9,4 +9,6 @@ export class priority extends additional {
   getDescription(): string {
     return super.getDescription() + " + Entrega Prioritária";
   }
-}
+   getType(): string {
+    return this.getType()
+ }}

@@ -2,6 +2,7 @@ import { Art } from "./Art";
 import { priority } from "./Priority";
 import { UrgencyFee } from "./Urgency";
 import { BonusPremium } from "./Bonus";
+import rl from 'readline-sync'
 
 function main() {
 console.log("\n╔══════════════════════════════════════╗");
@@ -25,7 +26,7 @@ console.log("\n╔════════════════════�
 
      switch(opcao) {
         case 1:
-            artBase= new Art()
+            arte= new Art()
             break
         default:
             console.log('Opção inválida!')

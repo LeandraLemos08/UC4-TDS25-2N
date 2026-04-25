@@ -10,4 +10,6 @@ export class UrgencyFee extends additional {
   getDescription(): string {
     return super.getDescription() + "+ Urgênciaaaaaaaaa";
   }
-}
+ getType(): string {
+    return this.getType()
+ }}
